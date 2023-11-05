@@ -12,7 +12,7 @@ export function createApp(container, gameFieldSize) {
   const startHeading = document.createElement('h1');
   startHeading.classList.add('heading_small', 'position-vertical-center');
   startHeading.id = 'start-heading';
-  startHeading.textContent = 'Press spacebar to start playing';
+  startHeading.textContent = 'Press spacebar to start playing!';
 
   const platform = createPlatform(100, gameFieldSize);
   const ball = createBall(30);
